@@ -1,0 +1,268 @@
+{
+  "assets": [
+    {
+      "asset": "assets/tee.webp",
+      "method": "OpenAI built-in imagegen",
+      "date": "2026-09-29",
+      "prompt": "Use case: product-mockup\nAsset type: fashion shopping catalog product photo\nPrimary request: A single a plain white cotton short-sleeve crewneck T-shirt, softly draped with sleeves spread.\nScene/backdrop: Seamless light cool gray studio background.\nStyle/medium: Contemporary clean editorial e-commerce product photography, realistic fabric texture and construction.\nComposition/framing: Portrait 3:4 image. The whole garment is centered and entirely visible with ample margins on every side. Floating garment / carefully styled flatlay, front view, no person or mannequin.\nLighting/mood: Soft diffused studio light, delicate natural contact shadow, calm minimal presentation.\nConstraints: Exactly one garment, no extra accessories. No humans, hangers, labels, text, logos, graphic prints, borders, collage, or watermarks.",
+      "delivery": "Resized and encoded as 900x1200 WebP using Pillow",
+      "sha256": "bab53624ba3c6fcad7d0870a1932da6c89fe200905ac3f260bbea9e744c93e34"
+    },
+    {
+      "asset": "assets/jeans.webp",
+      "method": "OpenAI built-in imagegen",
+      "date": "2026-09-29",
+      "prompt": "Use case: product-mockup\nAsset type: fashion shopping catalog product photo\nPrimary request: A single blue straight-leg denim jeans, full length with two legs clearly separated, naturally arranged.\nScene/backdrop: Seamless warm off-white studio background.\nStyle/medium: Contemporary clean editorial e-commerce product photography, realistic fabric texture and construction.\nComposition/framing: Portrait 3:4 image. The whole garment is centered and entirely visible with ample margins on every side. Floating garment / carefully styled flatlay, front view, no person or mannequin.\nLighting/mood: Soft diffused studio light, delicate natural contact shadow, calm minimal presentation.\nConstraints: Exactly one garment, no extra accessories. No humans, hangers, labels, text, logos, graphic prints, borders, collage, or watermarks.",
+      "delivery": "Resized and encoded as 900x1200 WebP using Pillow",
+      "sha256": "7e80a43ec973bf2e7e5ae173c38b7d09416aff9d18adf535ae0988b185fe7943"
+    },
+    {
+      "asset": "assets/green-jacket.webp",
+      "method": "OpenAI built-in imagegen",
+      "date": "2026-09-29",
+      "prompt": "Use case: product-mockup\nAsset type: fashion shopping catalog product photo\nPrimary request: A single forest green lightweight zip-front jacket, simple stand collar, long sleeves naturally spread.\nScene/backdrop: Seamless pale stone gray studio background.\nStyle/medium: Contemporary clean editorial e-commerce product photography, realistic fabric texture and construction.\nComposition/framing: Portrait 3:4 image. The whole garment is centered and entirely visible with ample margins on every side. Floating garment / carefully styled flatlay, front view, no person or mannequin.\nLighting/mood: Soft diffused studio light, delicate natural contact shadow, calm minimal presentation.\nConstraints: Exactly one garment, no extra accessories. No humans, hangers, labels, text, logos, graphic prints, borders, collage, or watermarks.",
+      "delivery": "Resized and encoded as 900x1200 WebP using Pillow",
+      "sha256": "9db8b3d0c0cd6d798bd1aea0e159f163bede5bc964829c80ee83c3602dd87e08"
+    },
+    {
+      "asset": "assets/sweatshirt.webp",
+      "method": "OpenAI built-in imagegen",
+      "date": "2026-09-29",
+      "prompt": "Use case: product-mockup\nAsset type: fashion shopping catalog product photo\nPrimary request: A single dark charcoal cotton crewneck sweatshirt, ribbed collar cuffs and hem, relaxed long sleeves.\nScene/backdrop: Seamless soft warm gray studio background.\nStyle/medium: Contemporary clean editorial e-commerce product photography, realistic fabric texture and construction.\nComposition/framing: Portrait 3:4 image. The whole garment is centered and entirely visible with ample margins on every side. Floating garment / carefully styled flatlay, front view, no person or mannequin.\nLighting/mood: Soft diffused studio light, delicate natural contact shadow, calm minimal presentation.\nConstraints: Exactly one garment, no extra accessories. No humans, hangers, labels, text, logos, graphic prints, borders, collage, or watermarks.",
+      "delivery": "Resized and encoded as 900x1200 WebP using Pillow",
+      "sha256": "4599f9096def5bb722e7caf9099c56657b927a274b3bc4fa2b3c17b85d83c2b0"
+    },
+    {
+      "asset": "assets/trousers.webp",
+      "method": "OpenAI built-in imagegen",
+      "date": "2026-09-29",
+      "prompt": "Use case: product-mockup\nAsset type: fashion shopping catalog product photo\nPrimary request: A single navy blue pleated tailored trousers, full length and straight leg, clear pressed front pleats.\nScene/backdrop: Seamless pale warm cream studio background.\nStyle/medium: Contemporary clean editorial e-commerce product photography, realistic fabric texture and construction.\nComposition/framing: Portrait 3:4 image. The whole garment is centered and entirely visible with ample margins on every side. Floating garment / carefully styled flatlay, front view, no person or mannequin.\nLighting/mood: Soft diffused studio light, delicate natural contact shadow, calm minimal presentation.\nConstraints: Exactly one garment, no extra accessories. No humans, hangers, labels, text, logos, graphic prints, borders, collage, or watermarks.",
+      "delivery": "Resized and encoded as 900x1200 WebP using Pillow",
+      "sha256": "c73fd26439a46a9eeeae88169fd3c50b8bd950303a3282578efba3cbd83aad1a"
+    },
+    {
+      "asset": "assets/bomber.webp",
+      "method": "OpenAI built-in imagegen",
+      "date": "2026-09-29",
+      "prompt": "Use case: product-mockup\nAsset type: fashion shopping catalog product photo\nPrimary request: A single black bomber jacket, zip-front closure with ribbed collar cuffs and hem, softly rounded shape.\nScene/backdrop: Seamless light cool gray studio background.\nStyle/medium: Contemporary clean editorial e-commerce product photography, realistic fabric texture and construction.\nComposition/framing: Portrait 3:4 image. The whole garment is centered and entirely visible with ample margins on every side. Floating garment / carefully styled flatlay, front view, no person or mannequin.\nLighting/mood: Soft diffused studio light, delicate natural contact shadow, calm minimal presentation.\nConstraints: Exactly one garment, no extra accessories. No humans, hangers, labels, text, logos, graphic prints, borders, collage, or watermarks.",
+      "delivery": "Resized and encoded as 900x1200 WebP using Pillow",
+      "sha256": "5ac6394b8c1ecc8c57d8826e769676b8c1f915b266755f75e364657c0ccc54b7"
+    },
+    {
+      "asset": "assets/trench.webp",
+      "method": "OpenAI built-in imagegen",
+      "date": "2026-09-29",
+      "prompt": "Use case: product-mockup\nAsset type: fashion shopping catalog product photo\nPrimary request: A single light taupe long trench coat, double-breasted buttons, lapel collar and matching belt loosely tied, full length.\nScene/backdrop: Seamless pale neutral beige studio background.\nStyle/medium: Contemporary clean editorial e-commerce product photography, realistic fabric texture and construction.\nComposition/framing: Portrait 3:4 image. The whole garment is centered and entirely visible with ample margins on every side. Floating garment / carefully styled flatlay, front view, no person or mannequin.\nLighting/mood: Soft diffused studio light, delicate natural contact shadow, calm minimal presentation.\nConstraints: Exactly one garment, no extra accessories. No humans, hangers, labels, text, logos, graphic prints, borders, collage, or watermarks.",
+      "delivery": "Resized and encoded as 900x1200 WebP using Pillow",
+      "sha256": "4c5bbae51bb5b1e4e32211773a783200f04125e19e662c8d9eb5bbf1e7a84c56"
+    },
+    {
+      "asset": "assets/polo.webp",
+      "method": "OpenAI built-in imagegen",
+      "date": "2026-09-29",
+      "prompt": "Use case: product-mockup\nAsset type: fashion shopping catalog product photo\nPrimary request: A single sage green cotton short-sleeve polo shirt, classic soft collar and three-button placket.\nScene/backdrop: Seamless pale warm gray studio background.\nStyle/medium: Contemporary clean editorial e-commerce product photography, realistic fabric texture and construction.\nComposition/framing: Portrait 3:4 image. The whole garment is centered and entirely visible with ample margins on every side. Floating garment / carefully styled flatlay, front view, no person or mannequin.\nLighting/mood: Soft diffused studio light, delicate natural contact shadow, calm minimal presentation.\nConstraints: Exactly one garment, no extra accessories. No humans, hangers, labels, text, logos, graphic prints, borders, collage, or watermarks.",
+      "delivery": "Resized and encoded as 900x1200 WebP using Pillow",
+      "sha256": "59e7e156f53674bb2f438161f65b815a7d86244ba52b52e8339851d718d61788"
+    },
+    {
+      "asset": "assets/knit.webp",
+      "method": "OpenAI built-in imagegen",
+      "date": "2026-09-29",
+      "prompt": "Use case: product-mockup\nAsset type: fashion shopping catalog product photo\nPrimary request: A single off-white cable-knit sweater, crewneck long sleeves, beautiful dimensional cable pattern.\nScene/backdrop: Seamless light soft gray studio background.\nStyle/medium: Contemporary clean editorial e-commerce product photography, realistic fabric texture and construction.\nComposition/framing: Portrait 3:4 image. The whole garment is centered and entirely visible with ample margins on every side. Floating garment / carefully styled flatlay, front view, no person or mannequin.\nLighting/mood: Soft diffused studio light, delicate natural contact shadow, calm minimal presentation.\nConstraints: Exactly one garment, no extra accessories. No humans, hangers, labels, text, logos, graphic prints, borders, collage, or watermarks.",
+      "delivery": "Resized and encoded as 900x1200 WebP using Pillow",
+      "sha256": "eb13107ab78d47edb6a104427bbdf1fe6f34eb6ca35a170963d060d537997550"
+    },
+    {
+      "asset": "assets/shirt.webp",
+      "method": "OpenAI built-in imagegen",
+      "date": "2026-09-29",
+      "prompt": "Use case: product-mockup\nAsset type: fashion shopping catalog product photo\nPrimary request: A single sky blue Oxford cotton button-down shirt, long sleeves and a traditional button-down collar.\nScene/backdrop: Seamless warm off-white studio background.\nStyle/medium: Contemporary clean editorial e-commerce product photography, realistic fabric texture and construction.\nComposition/framing: Portrait 3:4 image. The whole garment is centered and entirely visible with ample margins on every side. Floating garment / carefully styled flatlay, front view, no person or mannequin.\nLighting/mood: Soft diffused studio light, delicate natural contact shadow, calm minimal presentation.\nConstraints: Exactly one garment, no extra accessories. No humans, hangers, labels, text, logos, graphic prints, borders, collage, or watermarks.",
+      "delivery": "Resized and encoded as 900x1200 WebP using Pillow",
+      "sha256": "6cfca9acccd90fe40a10f8fa050d1b44266279d80daee106110d94ffd605968c"
+    },
+    {
+      "asset": "assets/jeans-indigo.webp",
+      "method": "OpenAI built-in imagegen",
+      "date": "2026-09-30",
+      "prompt": "Use case: product-mockup\nAsset type: independent premium fashion catalog product photo\nPrimary request: One deep indigo wide-leg denim jeans, classic five-pocket construction, no rips.\nScene/backdrop: uniform light warm gray seamless studio surface.\nStyle/medium: photorealistic minimalist editorial product photography, authentic fabric texture and realistic tailoring.\nComposition/framing: portrait 3:4 image; centered front view, garment laid flat neatly and naturally with slight dimensional folds. Show the entire garment with every sleeve or leg, collar or waistband, cuff and hem visible; generous clean margins on all four sides. One item only.\nLighting/mood: soft diffuse studio light, delicate contact shadows, clean neutral color rendering.\nConstraints: no people, hands, mannequin, hanger, props, accessories, labels, branded logos, letters, words, text, watermark, border, grid or collage. Preserve accurate base fabric color. Original artwork only for any requested printed graphic.",
+      "delivery": "Resized and encoded as 900x1200 WebP using Pillow",
+      "sha256": "2d216a4353157cb2b0c49b258a6691e85c9359e0c3872912299af0e5645ff54e"
+    },
+    {
+      "asset": "assets/chino-olive.webp",
+      "method": "OpenAI built-in imagegen",
+      "date": "2026-09-30",
+      "prompt": "Use case: product-mockup\nAsset type: independent premium fashion catalog product photo\nPrimary request: One olive green slim-fit cotton chino trousers.\nScene/backdrop: uniform light warm gray seamless studio surface.\nStyle/medium: photorealistic minimalist editorial product photography, authentic fabric texture and realistic tailoring.\nComposition/framing: portrait 3:4 image; centered front view, garment laid flat neatly and naturally with slight dimensional folds. Show the entire garment with every sleeve or leg, collar or waistband, cuff and hem visible; generous clean margins on all four sides. One item only.\nLighting/mood: soft diffuse studio light, delicate contact shadows, clean neutral color rendering.\nConstraints: no people, hands, mannequin, hanger, props, accessories, labels, branded logos, letters, words, text, watermark, border, grid or collage. Preserve accurate base fabric color. Original artwork only for any requested printed graphic.",
+      "delivery": "Resized and encoded as 900x1200 WebP using Pillow",
+      "sha256": "5245bed49826b93c0fafc32b400c2b39108ea2fed832694588268a11ce2d99c0"
+    },
+    {
+      "asset": "assets/jeans-washed.webp",
+      "method": "OpenAI built-in imagegen",
+      "date": "2026-09-30",
+      "prompt": "Use case: product-mockup\nAsset type: independent premium fashion catalog product photo\nPrimary request: One pale washed blue straight-fit denim jeans, classic five-pocket construction, no rips.\nScene/backdrop: uniform light warm gray seamless studio surface.\nStyle/medium: photorealistic minimalist editorial product photography, authentic fabric texture and realistic tailoring.\nComposition/framing: portrait 3:4 image; centered front view, garment laid flat neatly and naturally with slight dimensional folds. Show the entire garment with every sleeve or leg, collar or waistband, cuff and hem visible; generous clean margins on all four sides. One item only.\nLighting/mood: soft diffuse studio light, delicate contact shadows, clean neutral color rendering.\nConstraints: no people, hands, mannequin, hanger, props, accessories, labels, branded logos, letters, words, text, watermark, border, grid or collage. Preserve accurate base fabric color. Original artwork only for any requested printed graphic.",
+      "delivery": "Resized and encoded as 900x1200 WebP using Pillow",
+      "sha256": "854f87362e8e0a5c887dc1666caf08b4991b397cb8220ea506f36ae77d4a1454"
+    },
+    {
+      "asset": "assets/chino-sand.webp",
+      "method": "OpenAI built-in imagegen",
+      "date": "2026-09-30",
+      "prompt": "Use case: product-mockup\nAsset type: independent premium fashion catalog product photo\nPrimary request: One sand beige straight-fit cotton chino trousers.\nScene/backdrop: uniform light warm gray seamless studio surface.\nStyle/medium: photorealistic minimalist editorial product photography, authentic fabric texture and realistic tailoring.\nComposition/framing: portrait 3:4 image; centered front view, garment laid flat neatly and naturally with slight dimensional folds. Show the entire garment with every sleeve or leg, collar or waistband, cuff and hem visible; generous clean margins on all four sides. One item only.\nLighting/mood: soft diffuse studio light, delicate contact shadows, clean neutral color rendering.\nConstraints: no people, hands, mannequin, hanger, props, accessories, labels, branded logos, letters, words, text, watermark, border, grid or collage. Preserve accurate base fabric color. Original artwork only for any requested printed graphic.",
+      "delivery": "Resized and encoded as 900x1200 WebP using Pillow",
+      "sha256": "32b4676a1cd5464d34f5bffe83f839ae98a553cc9ba89a7f46fb0e83fe588012"
+    },
+    {
+      "asset": "assets/sweatpants-gray.webp",
+      "method": "OpenAI built-in imagegen",
+      "date": "2026-09-30",
+      "prompt": "Use case: product-mockup\nAsset type: independent premium fashion catalog product photo\nPrimary request: One heather gray loose-fit cotton fleece sweatpants with elastic waistband and subtle drawstring.\nScene/backdrop: uniform light warm gray seamless studio surface.\nStyle/medium: photorealistic minimalist editorial product photography, authentic fabric texture and realistic tailoring.\nComposition/framing: portrait 3:4 image; centered front view, garment laid flat neatly and naturally with slight dimensional folds. Show the entire garment with every sleeve or leg, collar or waistband, cuff and hem visible; generous clean margins on all four sides. One item only.\nLighting/mood: soft diffuse studio light, delicate contact shadows, clean neutral color rendering.\nConstraints: no people, hands, mannequin, hanger, props, accessories, labels, branded logos, letters, words, text, watermark, border, grid or collage. Preserve accurate base fabric color. Original artwork only for any requested printed graphic.",
+      "delivery": "Resized and encoded as 900x1200 WebP using Pillow",
+      "sha256": "dccc32963466f8ade50795041c47ee825f1d2e75ce5a18c277d28aaa6d5d0ce1"
+    },
+    {
+      "asset": "assets/graphic-tee-black.webp",
+      "method": "OpenAI built-in imagegen",
+      "date": "2026-09-30",
+      "prompt": "Use case: product-mockup\nAsset type: independent premium fashion catalog product photo\nPrimary request: One black short-sleeve crewneck tee with a medium-size original cream orbital graphic printed centrally on chest, abstract intersecting elliptical orbits, no lettering.\nScene/backdrop: uniform light warm gray seamless studio surface.\nStyle/medium: photorealistic minimalist editorial product photography, authentic fabric texture and realistic tailoring.\nComposition/framing: portrait 3:4 image; centered front view, garment laid flat neatly and naturally with slight dimensional folds. Show the entire garment with every sleeve or leg, collar or waistband, cuff and hem visible; generous clean margins on all four sides. One item only.\nLighting/mood: soft diffuse studio light, delicate contact shadows, clean neutral color rendering.\nConstraints: no people, hands, mannequin, hanger, props, accessories, labels, branded logos, letters, words, text, watermark, border, grid or collage. Preserve accurate base fabric color. Original artwork only for any requested printed graphic.",
+      "delivery": "Resized and encoded as 900x1200 WebP using Pillow",
+      "sha256": "4ad0b44219ac09eee3b3882c0c0569da0ba477959735e696dd45fa31dc7c012a"
+    },
+    {
+      "asset": "assets/graphic-tee-cream.webp",
+      "method": "OpenAI built-in imagegen",
+      "date": "2026-09-30",
+      "prompt": "Use case: product-mockup\nAsset type: independent premium fashion catalog product photo\nPrimary request: One cream ivory short-sleeve crewneck tee with a medium-size original cobalt blue wavy graphic centrally on chest, flowing parallel ribbons, no lettering.\nScene/backdrop: uniform light warm gray seamless studio surface.\nStyle/medium: photorealistic minimalist editorial product photography, authentic fabric texture and realistic tailoring.\nComposition/framing: portrait 3:4 image; centered front view, garment laid flat neatly and naturally with slight dimensional folds. Show the entire garment with every sleeve or leg, collar or waistband, cuff and hem visible; generous clean margins on all four sides. One item only.\nLighting/mood: soft diffuse studio light, delicate contact shadows, clean neutral color rendering.\nConstraints: no people, hands, mannequin, hanger, props, accessories, labels, branded logos, letters, words, text, watermark, border, grid or collage. Preserve accurate base fabric color. Original artwork only for any requested printed graphic.",
+      "delivery": "Resized and encoded as 900x1200 WebP using Pillow",
+      "sha256": "6ced3414e066583dcda443ec1a6c001343c48c3950262c29746b42dd8a7e1ebf"
+    },
+    {
+      "asset": "assets/plain-tee-gray.webp",
+      "method": "OpenAI built-in imagegen",
+      "date": "2026-09-30",
+      "prompt": "Use case: product-mockup\nAsset type: independent premium fashion catalog product photo\nPrimary request: One plain medium heather gray short-sleeve crewneck cotton tee without any print, completely unadorned.\nScene/backdrop: uniform light warm gray seamless studio surface.\nStyle/medium: photorealistic minimalist editorial product photography, authentic fabric texture and realistic tailoring.\nComposition/framing: portrait 3:4 image; centered front view, garment laid flat neatly and naturally with slight dimensional folds. Show the entire garment with every sleeve or leg, collar or waistband, cuff and hem visible; generous clean margins on all four sides. One item only.\nLighting/mood: soft diffuse studio light, delicate contact shadows, clean neutral color rendering.\nConstraints: no people, hands, mannequin, hanger, props, accessories, labels, branded logos, letters, words, text, watermark, border, grid or collage. Preserve accurate base fabric color. Original artwork only for any requested printed graphic.",
+      "delivery": "Resized and encoded as 900x1200 WebP using Pillow",
+      "sha256": "93a9202897220efd806f8464b02ba138243a7a1644310b9e656f83bfd1cdc71d"
+    },
+    {
+      "asset": "assets/graphic-tee-navy.webp",
+      "method": "OpenAI built-in imagegen",
+      "date": "2026-09-30",
+      "prompt": "Use case: product-mockup\nAsset type: independent premium fashion catalog product photo\nPrimary request: One navy blue short-sleeve crewneck tee with a medium-size original orange sun graphic centrally on chest, circle with sculptural radiating rays, no lettering.\nScene/backdrop: uniform light warm gray seamless studio surface.\nStyle/medium: photorealistic minimalist editorial product photography, authentic fabric texture and realistic tailoring.\nComposition/framing: portrait 3:4 image; centered front view, garment laid flat neatly and naturally with slight dimensional folds. Show the entire garment with every sleeve or leg, collar or waistband, cuff and hem visible; generous clean margins on all four sides. One item only.\nLighting/mood: soft diffuse studio light, delicate contact shadows, clean neutral color rendering.\nConstraints: no people, hands, mannequin, hanger, props, accessories, labels, branded logos, letters, words, text, watermark, border, grid or collage. Preserve accurate base fabric color. Original artwork only for any requested printed graphic.",
+      "delivery": "Resized and encoded as 900x1200 WebP using Pillow",
+      "sha256": "b0b53a946129c6c55aaa01e78a4831b2b448e60ecf4dda82f6d63227696645b2"
+    },
+    {
+      "asset": "assets/graphic-tee-burgundy.webp",
+      "method": "OpenAI built-in imagegen",
+      "date": "2026-09-30",
+      "prompt": "Use case: product-mockup\nAsset type: independent premium fashion catalog product photo\nPrimary request: One burgundy red short-sleeve crewneck tee with a medium-size original ivory abstract geometric print centrally on chest, balanced angular forms, no lettering.\nScene/backdrop: uniform light warm gray seamless studio surface.\nStyle/medium: photorealistic minimalist editorial product photography, authentic fabric texture and realistic tailoring.\nComposition/framing: portrait 3:4 image; centered front view, garment laid flat neatly and naturally with slight dimensional folds. Show the entire garment with every sleeve or leg, collar or waistband, cuff and hem visible; generous clean margins on all four sides. One item only.\nLighting/mood: soft diffuse studio light, delicate contact shadows, clean neutral color rendering.\nConstraints: no people, hands, mannequin, hanger, props, accessories, labels, branded logos, letters, words, text, watermark, border, grid or collage. Preserve accurate base fabric color. Original artwork only for any requested printed graphic.",
+      "delivery": "Resized and encoded as 900x1200 WebP using Pillow",
+      "sha256": "f3d9a83fe111c0790f80acfacba42fd063c65d6256ae74b8154e391c56fbc524"
+    },
+    {
+      "asset": "assets/graphic-tee-green.webp",
+      "method": "OpenAI built-in imagegen",
+      "date": "2026-09-30",
+      "prompt": "Use case: product-mockup\nAsset type: independent premium fashion catalog product photo\nPrimary request: One forest green short-sleeve crewneck tee with a medium-size original light-green botanical silhouette print centrally on chest, elegant abstract leaf forms, no lettering.\nScene/backdrop: uniform light warm gray seamless studio surface.\nStyle/medium: photorealistic minimalist editorial product photography, authentic fabric texture and realistic tailoring.\nComposition/framing: portrait 3:4 image; centered front view, garment laid flat neatly and naturally with slight dimensional folds. Show the entire garment with every sleeve or leg, collar or waistband, cuff and hem visible; generous clean margins on all four sides. One item only.\nLighting/mood: soft diffuse studio light, delicate contact shadows, clean neutral color rendering.\nConstraints: no people, hands, mannequin, hanger, props, accessories, labels, branded logos, letters, words, text, watermark, border, grid or collage. Preserve accurate base fabric color. Original artwork only for any requested printed graphic.",
+      "delivery": "Resized and encoded as 900x1200 WebP using Pillow",
+      "sha256": "f35b9875af16d44bf97d626afd9a87a967cf54453efe6b492622616ed4b58c4b"
+    },
+    {
+      "asset": "assets/plain-tee-white.webp",
+      "method": "OpenAI built-in imagegen",
+      "date": "2026-09-30",
+      "prompt": "Use case: product-mockup\nAsset type: independent premium fashion catalog product photo\nPrimary request: One plain bright white short-sleeve crewneck cotton tee without any print, completely unadorned.\nScene/backdrop: uniform light warm gray seamless studio surface.\nStyle/medium: photorealistic minimalist editorial product photography, authentic fabric texture and realistic tailoring.\nComposition/framing: portrait 3:4 image; centered front view, garment laid flat neatly and naturally with slight dimensional folds. Show the entire garment with every sleeve or leg, collar or waistband, cuff and hem visible; generous clean margins on all four sides. One item only.\nLighting/mood: soft diffuse studio light, delicate contact shadows, clean neutral color rendering.\nConstraints: no people, hands, mannequin, hanger, props, accessories, labels, branded logos, letters, words, text, watermark, border, grid or collage. Preserve accurate base fabric color. Original artwork only for any requested printed graphic.",
+      "delivery": "Resized and encoded as 900x1200 WebP using Pillow",
+      "sha256": "1349e9431866aac11603c900b223c48f5b0505d973dff12183036408928c3fa8"
+    },
+    {
+      "asset": "assets/pocket-long-tee.webp",
+      "method": "OpenAI built-in imagegen",
+      "date": "2026-09-30",
+      "prompt": "Use case: product-mockup\nAsset type: independent premium fashion catalog product photo\nPrimary request: One black long-sleeve crewneck cotton tee with one contrast medium-gray chest patch pocket.\nScene/backdrop: uniform light warm gray seamless studio surface.\nStyle/medium: photorealistic minimalist editorial product photography, authentic fabric texture and realistic tailoring.\nComposition/framing: portrait 3:4 image; centered front view, garment laid flat neatly and naturally with slight dimensional folds. Show the entire garment with every sleeve or leg, collar or waistband, cuff and hem visible; generous clean margins on all four sides. One item only.\nLighting/mood: soft diffuse studio light, delicate contact shadows, clean neutral color rendering.\nConstraints: no people, hands, mannequin, hanger, props, accessories, labels, branded logos, letters, words, text, watermark, border, grid or collage. Preserve accurate base fabric color. Original artwork only for any requested printed graphic.",
+      "delivery": "Resized and encoded as 900x1200 WebP using Pillow",
+      "sha256": "46d40c4b6e2736d69096bf5a87ae27e571943558c20a6951e2430a77438ce4ec"
+    },
+    {
+      "asset": "assets/striped-long-tee.webp",
+      "method": "OpenAI built-in imagegen",
+      "date": "2026-09-30",
+      "prompt": "Use case: product-mockup\nAsset type: independent premium fashion catalog product photo\nPrimary request: One cream and navy horizontally striped long-sleeve crewneck cotton tee.\nScene/backdrop: uniform light warm gray seamless studio surface.\nStyle/medium: photorealistic minimalist editorial product photography, authentic fabric texture and realistic tailoring.\nComposition/framing: portrait 3:4 image; centered front view, garment laid flat neatly and naturally with slight dimensional folds. Show the entire garment with every sleeve or leg, collar or waistband, cuff and hem visible; generous clean margins on all four sides. One item only.\nLighting/mood: soft diffuse studio light, delicate contact shadows, clean neutral color rendering.\nConstraints: no people, hands, mannequin, hanger, props, accessories, labels, branded logos, letters, words, text, watermark, border, grid or collage. Preserve accurate base fabric color. Original artwork only for any requested printed graphic.",
+      "delivery": "Resized and encoded as 900x1200 WebP using Pillow",
+      "sha256": "aa5fc60d6f9a804337709925790a5ac6c18c5e92848d31e4cb08e4b09f72c79d"
+    },
+    {
+      "asset": "assets/plain-tee-brown.webp",
+      "method": "OpenAI built-in imagegen",
+      "date": "2026-09-30",
+      "prompt": "Use case: product-mockup\nAsset type: independent premium fashion catalog product photo\nPrimary request: One plain rich chocolate brown short-sleeve crewneck cotton tee without any print, completely unadorned.\nScene/backdrop: uniform light warm gray seamless studio surface.\nStyle/medium: photorealistic minimalist editorial product photography, authentic fabric texture and realistic tailoring.\nComposition/framing: portrait 3:4 image; centered front view, garment laid flat neatly and naturally with slight dimensional folds. Show the entire garment with every sleeve or leg, collar or waistband, cuff and hem visible; generous clean margins on all four sides. One item only.\nLighting/mood: soft diffuse studio light, delicate contact shadows, clean neutral color rendering.\nConstraints: no people, hands, mannequin, hanger, props, accessories, labels, branded logos, letters, words, text, watermark, border, grid or collage. Preserve accurate base fabric color. Original artwork only for any requested printed graphic.",
+      "delivery": "Resized and encoded as 900x1200 WebP using Pillow",
+      "sha256": "cb1129579addb98a1bd65b66784a1c82d4fb48ce7e5d97cf167d824a934ebf12"
+    },
+    {
+      "asset": "assets/plain-tee-blue.webp",
+      "method": "OpenAI built-in imagegen",
+      "date": "2026-09-30",
+      "prompt": "Use case: product-mockup\nAsset type: independent premium fashion catalog product photo\nPrimary request: One plain sky blue short-sleeve crewneck cotton tee without any print, completely unadorned.\nScene/backdrop: uniform light warm gray seamless studio surface.\nStyle/medium: photorealistic minimalist editorial product photography, authentic fabric texture and realistic tailoring.\nComposition/framing: portrait 3:4 image; centered front view, garment laid flat neatly and naturally with slight dimensional folds. Show the entire garment with every sleeve or leg, collar or waistband, cuff and hem visible; generous clean margins on all four sides. One item only.\nLighting/mood: soft diffuse studio light, delicate contact shadows, clean neutral color rendering.\nConstraints: no people, hands, mannequin, hanger, props, accessories, labels, branded logos, letters, words, text, watermark, border, grid or collage. Preserve accurate base fabric color. Original artwork only for any requested printed graphic.",
+      "delivery": "Resized and encoded as 900x1200 WebP using Pillow",
+      "sha256": "16811320c71a7eb26ba5811c4dd5e16b2ad9f57989a3f102cf407f63dab2fbee"
+    },
+    {
+      "asset": "assets/plain-tee-olive.webp",
+      "method": "OpenAI built-in imagegen",
+      "date": "2026-09-30",
+      "prompt": "Use case: product-mockup\nAsset type: independent premium fashion catalog product photo\nPrimary request: One plain olive green short-sleeve crewneck cotton tee without any print, completely unadorned.\nScene/backdrop: uniform light warm gray seamless studio surface.\nStyle/medium: photorealistic minimalist editorial product photography, authentic fabric texture and realistic tailoring.\nComposition/framing: portrait 3:4 image; centered front view, garment laid flat neatly and naturally with slight dimensional folds. Show the entire garment with every sleeve or leg, collar or waistband, cuff and hem visible; generous clean margins on all four sides. One item only.\nLighting/mood: soft diffuse studio light, delicate contact shadows, clean neutral color rendering.\nConstraints: no people, hands, mannequin, hanger, props, accessories, labels, branded logos, letters, words, text, watermark, border, grid or collage. Preserve accurate base fabric color. Original artwork only for any requested printed graphic.",
+      "delivery": "Resized and encoded as 900x1200 WebP using Pillow",
+      "sha256": "ca56dec807810307ab9fbcf49523b78ceb8cf11426a725a57b6be0330492c0d3"
+    },
+    {
+      "asset": "assets/raglan-long-tee.webp",
+      "method": "OpenAI built-in imagegen",
+      "date": "2026-09-30",
+      "prompt": "Use case: product-mockup\nAsset type: independent premium fashion catalog product photo\nPrimary request: One long-sleeve crewneck cotton tee with a white body and burgundy raglan sleeves.\nScene/backdrop: uniform light warm gray seamless studio surface.\nStyle/medium: photorealistic minimalist editorial product photography, authentic fabric texture and realistic tailoring.\nComposition/framing: portrait 3:4 image; centered front view, garment laid flat neatly and naturally with slight dimensional folds. Show the entire garment with every sleeve or leg, collar or waistband, cuff and hem visible; generous clean margins on all four sides. One item only.\nLighting/mood: soft diffuse studio light, delicate contact shadows, clean neutral color rendering.\nConstraints: no people, hands, mannequin, hanger, props, accessories, labels, branded logos, letters, words, text, watermark, border, grid or collage. Preserve accurate base fabric color. Original artwork only for any requested printed graphic.",
+      "delivery": "Resized and encoded as 900x1200 WebP using Pillow",
+      "sha256": "e973550961546058ed2c5767d2a2e787374545ba0a0d036c4f8d172783afb9db"
+    },
+    {
+      "asset": "assets/stripe-shirt-blue.webp",
+      "method": "OpenAI built-in imagegen",
+      "date": "2026-09-30",
+      "prompt": "Use case: product-mockup\nAsset type: independent premium fashion catalog product photo\nPrimary request: One light blue and white thin vertically striped short-sleeve button shirt.\nScene/backdrop: uniform light warm gray seamless studio surface.\nStyle/medium: photorealistic minimalist editorial product photography, authentic fabric texture and realistic tailoring.\nComposition/framing: portrait 3:4 image; centered front view, garment laid flat neatly and naturally with slight dimensional folds, buttons fastened. Show the entire garment with every sleeve, collar, cuff and hem visible; generous clean margins on all four sides. One item only.\nLighting/mood: soft diffuse studio light, delicate contact shadows, clean neutral color rendering.\nConstraints: no people, hands, mannequin, hanger, props, accessories, labels, branded logos, letters, words, text, watermark, border, grid or collage. Preserve accurate base fabric color.",
+      "delivery": "Resized and encoded as 900x1200 WebP using Pillow",
+      "sha256": "68c147cd5dbf148c52bbe80d5f2d66da50b9b7fb8266db50a0037f56811c4010"
+    },
+    {
+      "asset": "assets/oxford-shirt-white.webp",
+      "method": "OpenAI built-in imagegen",
+      "date": "2026-09-30",
+      "prompt": "Use case: product-mockup\nAsset type: independent premium fashion catalog product photo\nPrimary request: One crisp white long-sleeve Oxford button-down shirt.\nScene/backdrop: uniform light warm gray seamless studio surface.\nStyle/medium: photorealistic minimalist editorial product photography, authentic fabric texture and realistic tailoring.\nComposition/framing: portrait 3:4 image; centered front view, garment laid flat neatly and naturally with slight dimensional folds, buttons fastened. Show the entire garment with every sleeve, collar, cuff and hem visible; generous clean margins on all four sides. One item only.\nLighting/mood: soft diffuse studio light, delicate contact shadows, clean neutral color rendering.\nConstraints: no people, hands, mannequin, hanger, props, accessories, labels, branded logos, letters, words, text, watermark, border, grid or collage. Preserve accurate base fabric color.",
+      "delivery": "Resized and encoded as 900x1200 WebP using Pillow",
+      "sha256": "275ca70d336bf17be1b18df6430397f175bd18c134042a4ae862c0f8767e1d35"
+    },
+    {
+      "asset": "assets/check-shirt-olive.webp",
+      "method": "OpenAI built-in imagegen",
+      "date": "2026-09-30",
+      "prompt": "Use case: product-mockup\nAsset type: independent premium fashion catalog product photo\nPrimary request: One olive green and cream checked long-sleeve casual button shirt.\nScene/backdrop: uniform light warm gray seamless studio surface.\nStyle/medium: photorealistic minimalist editorial product photography, authentic fabric texture and realistic tailoring.\nComposition/framing: portrait 3:4 image; centered front view, garment laid flat neatly and naturally with slight dimensional folds, buttons fastened. Show the entire garment with every sleeve, collar, cuff and hem visible; generous clean margins on all four sides. One item only.\nLighting/mood: soft diffuse studio light, delicate contact shadows, clean neutral color rendering.\nConstraints: no people, hands, mannequin, hanger, props, accessories, labels, branded logos, letters, words, text, watermark, border, grid or collage. Preserve accurate base fabric color.",
+      "delivery": "Resized and encoded as 900x1200 WebP using Pillow",
+      "sha256": "3bb29fd2f05553b66793702e844ad364211901dc0f0e11a464787c9271d03a1e"
+    },
+    {
+      "asset": "assets/linen-shirt-navy.webp",
+      "method": "OpenAI built-in imagegen",
+      "date": "2026-09-30",
+      "prompt": "Use case: product-mockup\nAsset type: independent premium fashion catalog product photo\nPrimary request: One navy blue long-sleeve linen button shirt with obvious natural linen texture.\nScene/backdrop: uniform light warm gray seamless studio surface.\nStyle/medium: photorealistic minimalist editorial product photography, authentic fabric texture and realistic tailoring.\nComposition/framing: portrait 3:4 image; centered front view, garment laid flat neatly and naturally with slight dimensional folds, buttons fastened. Show the entire garment with every sleeve, collar, cuff and hem visible; generous clean margins on all four sides. One item only.\nLighting/mood: soft diffuse studio light, delicate contact shadows, clean neutral color rendering.\nConstraints: no people, hands, mannequin, hanger, props, accessories, labels, branded logos, letters, words, text, watermark, border, grid or collage. Preserve accurate base fabric color.",
+      "delivery": "Resized and encoded as 900x1200 WebP using Pillow",
+      "sha256": "90c0723be4481f8b4d5a7d7a6364f2093577b758545e2a8003b9e485eb46ad90"
+    },
+    {
+      "asset": "assets/camp-shirt-cream.webp",
+      "method": "OpenAI built-in imagegen",
+      "date": "2026-09-30",
+      "prompt": "Use case: product-mockup\nAsset type: independent premium fashion catalog product photo\nPrimary request: One cream short-sleeve camp collar button shirt.\nScene/backdrop: uniform light warm gray seamless studio surface.\nStyle/medium: photorealistic minimalist editorial product photography, authentic fabric texture and realistic tailoring.\nComposition/framing: portrait 3:4 image; centered front view, garment laid flat neatly and naturally with slight dimensional folds, buttons fastened. Show the entire garment with every sleeve, collar, cuff and hem visible; generous clean margins on all four sides. One item only.\nLighting/mood: soft diffuse studio light, delicate contact shadows, clean neutral color rendering.\nConstraints: no people, hands, mannequin, hanger, props, accessories, labels, branded logos, letters, words, text, watermark, border, grid or collage. Preserve accurate base fabric color.",
+      "delivery": "Resized and encoded as 900x1200 WebP using Pillow",
+      "sha256": "884326fbb3b75067f9fa54d79e12195546f12ead3c98e69dc5f66378a603e263"
+    }
+  ]
+}

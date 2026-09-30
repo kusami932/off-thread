@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>OFF/THREAD — Human test recorder</title><link rel="stylesheet" href="study.css"><script defer src="study-recorder.js"></script></head>
+<body><main>
+<p class="kicker">CS 4501 / OFF/THREAD / REVISION 2</p>
+<h1>Human usability test recorder</h1>
+<p>Record real participants completing the $88–$100 inclusive task. This page starts with no results, sends nothing, and does not automatically save records. Export JSON before closing. Use anonymous IDs; automated checks do not belong in this dataset.</p>
+<p>The store's stopwatch starts at the first app opening, continues through refresh and background time, and freezes on success. Enter its displayed duration in seconds (minutes × 60 + seconds), or record opening and system-completion timestamps. Record recognition time separately; it is not the primary endpoint.</p>
+<p><a href="index.html">Submission documentation</a> · <a href="testing-protocol.md">Full study protocol</a></p>
+<section class="settings">
+<label>Normal UI baseline (seconds)<input id="baseline" type="number" value="240" min="1"></label>
+<label>Baseline basis<select id="basis"><option value="estimated">Estimated</option><option value="measured">Measured</option></select></label>
+<label>Baseline rationale / study version<input id="rationale" value="Revision 1 estimate retained at 240s; revision 2 revalidation pending for 33 products, $88–$100, manual entry, and automatic timing."></label>
+<label class="check"><input id="baseline-revalidated" type="checkbox">Baseline revalidated for revision 2 with matching task and timing boundaries</label>
+</section>
+<p>The unchanged 240-second estimate is provisional. Until revalidated, any ratio is exploratory and does not establish the fivefold requirement. Legacy revision-1 records are preserved on import but excluded from revision-2 results.</p>
+<div class="actions"><button id="add">Add participant record</button><button id="export">Export records as JSON</button><label class="file">Import records<input id="import" type="file" accept="application/json"></label></div>
+<p id="import-error" role="alert"></p><div id="records"></div>
+<section class="summary"><h2>Results — revision 2 only</h2><div id="results">UNMEASURED</div><p>Independent success excludes observer hints and the separate cheatsheet. Site Payment help is permitted and logged. Assisted, abandoned, and technical-interruption trials remain separate; never substitute their elapsed times for independent completions.</p></section>
+</main></body></html>

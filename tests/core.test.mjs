@@ -34,16 +34,27 @@ test('cart deletion recalculates exact cents and never preserves a stale total',
   assert.equal(totalCents(cart.filter(line=>line.id!=='tee')),6400);
   assert.equal(totalCents([{...tee,quantity:3}]),5400);
 });
-test('stock is deterministic for each variant, and valid alternatives remain',()=>{
-  const jacket=productById('green-jacket');
-  for(let i=0;i<5;i++)assert.equal(inStock(jacket,'Green','M'),false);
-  assert.equal(inStock(jacket,'Green','S'),true);
-  assert.equal(inStock(jacket,'Black','M'),true);
+test('exactly eleven products have fixed stock restrictions with a six/five split',()=>{
+  const shoppable=PRODUCTS.filter(p=>!p.isAd);
+  const pattern=p=>p.sizes.filter(size=>p.colors.every(color=>!inStock(p,color,size))).join('/');
+  assert.equal(shoppable.filter(p=>pattern(p)==='S/M').length,6);
+  assert.equal(shoppable.filter(p=>pattern(p)==='L').length,5);
+  assert.equal(shoppable.filter(p=>pattern(p)==='').length,11);
+  for(const p of shoppable) {
+    assert.ok(p.colors.every(color=>p.sizes.some(size=>inStock(p,color,size))),p.id);
+    for(const size of p.sizes)assert.equal(new Set(p.colors.map(color=>inStock(p,color,size))).size,1,p.id);
+  }
+  const graphic=productById('graphic-tee-black');
+  for(let i=0;i<5;i++)assert.equal(inStock(graphic,'Black','M'),false);
+  assert.equal(inStock(graphic,'Black','S'),false);
+  assert.equal(inStock(graphic,'Black','L'),true);
+  assert.equal(inStock(productById('tee'),'White','L'),false);
+  assert.equal(inStock(productById('tee'),'White','M'),true);
 });
 test('stored cart data is normalized and invalid variants cannot become purchases',()=>{
   assert.deepEqual(normalizeCart(null),[]);
   assert.deepEqual(normalizeCart([{id:'made-up',color:'White',size:'M',quantity:1}]),[]);
-  assert.deepEqual(normalizeCart([{...tee,quantity:-1},{...tee,quantity:1.2},{id:'green-jacket',color:'Green',size:'M',quantity:1}]),[]);
+  assert.deepEqual(normalizeCart([{...tee,quantity:-1},{...tee,quantity:1.2},{id:'graphic-tee-black',color:'Black',size:'M',quantity:1}]),[]);
   assert.deepEqual(normalizeCart([tee,{...tee,quantity:3}]),[{...tee,quantity:5}]);
 });
 test('filter brands combine with OR and different properties with AND',()=>{
@@ -105,14 +116,16 @@ test('new payment values reject old and near-matching numbers',()=>{
   assert.equal(validPayment(['968','4871928904556523','12/31']),false);
 });
 
-test('eleven converted ads lead a 33-card catalog without duplicate insertions',()=>{
+test('four ads lead and seven are mixed below in a fixed 33-card catalog',()=>{
   assert.equal(ADS.length,11);
   assert.equal(PRODUCTS.filter(p=>!p.isAd).length,22);
   assert.equal(new Set(ADS.map(ad=>ad.sourceProductId)).size,11);
-  assert.deepEqual(CATALOG_ORDER.slice(0,11),ADS.map(ad=>ad.sourceProductId));
+  assert.deepEqual(CATALOG_ORDER.slice(0,4),ADS.slice(0,4).map(ad=>ad.sourceProductId));
+  assert.equal(CATALOG_ORDER.slice(4).filter(id=>productById(id).isAd).length,7);
+  assert.equal(productById(CATALOG_ORDER[4]).isAd,undefined);
+  assert.ok(CATALOG_ORDER.slice(22).some(id=>productById(id).isAd));
   assert.equal(CATALOG_ORDER.length,33);
   assert.equal(new Set(CATALOG_ORDER).size,33);
-  assert.ok(CATALOG_ORDER.slice(11).every(id=>!productById(id).isAd));
 });
 test('advertisement-only entries remain filterable but are removed from restored carts',()=>{
   const ad=productById(ADS[0].sourceProductId);

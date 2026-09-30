@@ -83,8 +83,8 @@ function drawCatalog() {
     const card=ad
       ? `<button class="product-card ${p.shape}" data-ad="${ad.id}" aria-label="View collection item ${index+1}">${image}</button>`
       : `<a class="product-card ${p.shape}" href="#/product/${p.id}" aria-label="View collection item ${index+1}" data-product="${p.id}">${image}</a>`;
-    // Fill the shortest column. Leading ads stay visually above the products,
-    // including when the desktop width changes the number of masonry columns.
+    // Fill the shortest column, keeping the first four ads at the top and
+    // preserving the mixed order of subsequent ads and products.
     const column=heights.indexOf(Math.min(...heights));
     columns[column].push(card);
     heights[column]+=width*({short:1.03,medium:1.22,tall:1.48}[p.shape] || 1.22)+gap;
@@ -145,7 +145,7 @@ function detail(id){
 }
 
 function renderCart(){
-  app.innerHTML=`<a class="back-link" href="#/shop">Back to collection</a><div class="page-heading"><div><p class="eyebrow">Your selection / Checkout</p><h1>The shopping bag.</h1></div><p>$88–$100 ORDER TARGET<br>SPEND WITHIN THIS RANGE</p></div><div class="cart-layout"><section><div class="cart-list">${cart.length?cart.map(line=>{
+  app.innerHTML=`<a class="back-link" href="#/shop">Back to collection</a><div class="page-heading"><div><p class="eyebrow">Your selection / Checkout</p><h1>The shopping bag.</h1></div></div><div class="cart-layout"><section><div class="cart-list">${cart.length?cart.map(line=>{
     const p=productById(line.id);
     return `<article class="cart-item" data-line="${escapeHTML(lineKey(line))}">${photo(p)}<div><p class="eyebrow">${p.brand}</p><h2>${p.name}</h2><p class="item-options">${line.color} / ${line.size}<br>Quantity: ${line.quantity}</p><button class="text-button remove" data-remove="${escapeHTML(lineKey(line))}">Remove</button></div><div class="item-price">${money(p.priceCents)}<small>PER ITEM</small></div></article>`;
   }).join(''):'<div class="empty"><h2>Your bag is empty.</h2><p>Choose an item from the collection to begin.</p><a class="button secondary" href="#/shop">Explore the collection</a></div>'}</div><a class="text-button cart-return" href="#/shop">Continue browsing</a></section><aside class="checkout"><p class="eyebrow">The last details</p><h2>Payment information</h2><p class="checkout-note">Fill in your card information. For guidance, check below for help.</p><form id="payment-form" autocomplete="off" novalidate><div class="payment-inputs">${payment.map((value,i)=>`<input type="text" id="payment-${i+1}" aria-label="Payment input ${i+1}" autocomplete="off" spellcheck="false" autocapitalize="off" value="${escapeHTML(value)}">`).join('')}</div><button type="button" class="text-button payment-help" id="payment-help">Payment help</button><button type="submit" class="button" id="pay" ${cart.length?'':'disabled'}>Pay</button><p class="field-error" id="payment-error" role="alert"></p></form><p class="checkout-footnote">No real payment is processed.<br>Your test payment values are never saved or sent.</p></aside></div>`;

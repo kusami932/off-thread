@@ -14,21 +14,21 @@ All **21 tests** passed with Node's built-in test runner (`node --test tests/*.t
 
 Additional data checks confirmed all 101 requested new filter labels exactly once, 111 total unique filter IDs, all 33 unique catalog entries, 33 local product assets, 33 prompt/provenance records, metadata search, and English source text.
 
-## Advertisement-count follow-up
+## Latest ad-placement and stock follow-up
 
-The latest user request converts 11 of the 33 existing entries into advertisements rather than adding duplicate cards. The original two inserted ads were removed. All 33 images remain, with exactly 22 purchasable products and 11 ad-only entries.
+The catalog remains 33 cards: 22 purchasable products and 11 ad-only entries. Four ads lead the catalog. Seven more are interspersed at fixed, once-randomized positions below. Stock was selected once rather than randomized during use: six products have S/M sold out across all colors, five have L sold out across all colors, and the other eleven products are fully available.
 
-- Two additional automated tests verify the leading ad order, exact 22/11 counts, unique cards, filterable ad metadata, and rejection of ad variants during restored-cart normalization.
-- At 1440×1000, the last ad started at document y=1539.29 and the first purchasable card started at y=1680.97. Every ad therefore began above every purchasable card. Shortest-column placement preserves the varied-height photo layout.
-- Browser checks found 33 cards, 11 ad buttons, 22 product links, and zero broken catalog images.
-- The first ad opened an internal advertisement dialog and closed immediately. BAPE filtering returned its one ad and zero product links; clearing restored the whole catalog.
-- A direct former-product URL for a converted ad returned to the catalog with no purchase control.
-- Two $44 indigo jeans still completed the task for $88 through the normal checkout. The automated tests also retain the valid $100 completion path.
-- No browser console warnings or errors appeared. Relevant browse, ad, cart-icon, and animation screenshots were refreshed; unchanged checkout evidence below comes from the earlier revision-2 verification.
+- The 21-test suite passed after updating stock and order assertions. It checks the exact six/five/eleven stock split, consistency across colors, at least one purchasable size per product, restored-cart rejection of unavailable variants, four leading ads, seven lower ads, and valid $88/$100 combinations.
+- Desktop browser checks found ad card positions 1, 2, 3, 4, 7, 10, 17, 19, 23, 25, and 33. All first four ads began on the same row at 1440×1000; products and the remaining ads were mixed below. A refresh retained the fixed arrangement.
+- The checkout heading no longer contains the ORDER TARGET / SPEND WITHIN THIS RANGE badge. The main task instructions and inclusive $88–$100 success rule remain intact.
+- Everyday cotton tee White/L rejected after Add; changing to White/M succeeded.
+- Orbit graphic tee Black/S and Black/M both rejected after Add; Black/L succeeded. The rejected attempts did not add cart items.
+- Four $22 Orbit graphic tees in Black/L completed an $88 order through the normal checkout after stock-error recovery. This is a functional automation check, not a participant result.
+- No browser console warnings or errors appeared. Relevant browse, animation, stock, cart-icon, and checkout screenshots were refreshed. Unchanged payment-dialog and timing evidence below was recorded earlier in revision 2.
 
 ## Desktop browser verification
 
-Executed in the connected Chromium browser at **1440 × 1000**, using the static site under `/anti-ux-fashion/` to exercise repository-subpath hosting. Screenshots in `screenshots/` were recaptured for revision 2.
+Executed in the connected Chromium browser at **1440 × 1000**, using the static site under `/anti-ux-fashion/` to exercise repository-subpath hosting. Screenshots in `screenshots/` document revision 2; the latest follow-up refreshes the affected browse, stock, and checkout views.
 
 | Check | Observed result |
 |---|---|
@@ -37,7 +37,7 @@ Executed in the connected Chromium browser at **1440 × 1000**, using the static
 | Stationary targets | Card document bounds were unchanged while its image transform changed; 24px/6s image-only animation remains |
 | Cart contrast | Default icon `rgb(210,210,207)` against `rgb(250,250,248)`; keyboard focus revealed `rgb(28,36,32)`; fixed 48×48 hitbox |
 | Ads | Dialog opened and the fixed close control worked immediately |
-| Unavailable stock | Green/M field jacket rejected after Add; an available product remained purchasable |
+| Unavailable stock, latest follow-up | Orbit graphic tee Black/S and Black/M rejected after Add; Black/L succeeded. Everyday cotton tee White/L rejected; White/M succeeded. |
 | Add feedback | Detail page remained visible and the small red bottom-right success strip appeared |
 | Checkout copy | Requested “Fill in your card information…” wording displayed; removed footer sentence absent |
 | Guide values | CVC 968, card 4871928904556523, expiry 12/30 displayed in the approved order |

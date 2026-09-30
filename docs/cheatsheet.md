@@ -2,7 +2,7 @@
 
 For evaluation and recovery only. Do not reveal these solutions before an independent participant trial. Any order totaling **$88–$100 inclusive** succeeds; maximum spending and item count are not objectives.
 
-The catalog now contains **22 shoppable products and 11 advertisement-only cards**, with ads concentrated at the top. Ads can match search/filter terms but cannot be bought, and converted entries have no second purchasable copy. All products in the solutions below remain shoppable.
+The catalog now contains **22 shoppable products and 11 advertisement-only cards**, with four ads first and seven interspersed among the products below in a fixed random order. Ads can match search/filter terms but cannot be bought, and converted entries have no second purchasable copy. All products in the solutions below remain shoppable. Eleven products have fixed size restrictions across all colors: six restrict S and M, and five restrict L. Always use the available sizes listed below.
 
 ## Valid $88 order
 
@@ -40,7 +40,7 @@ All listed variants are in stock according to the catalog. Search for each exact
 |---|---|
 | No search/filter results | Use **Clear search & filters** |
 | Mock advertisement | Close the fixed × immediately and select a different entry; ads cannot be added to the bag |
-| Sold-out example | Lightweight field jacket, Green/M is unavailable; choose Green/S or Black/M. The rejected add leaves the bag unchanged. |
+| Sold-out example | Orbit graphic tee, Black/S or Black/M is unavailable; choose Black/L. The rejected add leaves the bag unchanged. |
 | Missing color/size | Close the message and select both |
 | Wrong payment values or order | Read Payment help and manually retype the three exact dummy values |
 | First or second confirmation: No | Return with cart and fields retained; Pay again |
@@ -51,6 +51,15 @@ All listed variants are in stock according to the catalog. Search for each exact
 | Refresh | Cart and elapsed attempt continue; payment fields clear |
 | Background tab or error | Stopwatch continues; no pause or reset |
 | Successful order | Stopwatch freezes; **Start a new attempt** begins a fresh attempt |
+
+## Fixed stock restrictions
+
+The following one-time selection remains unchanged across visits. Restrictions apply to every listed color. All other shoppable products, including every size of Lightweight field jacket, are available.
+
+| Sold-out sizes | Products | Available recovery size(s) |
+|---|---|---|
+| S and M | Botanical graphic tee; Olive slim chino trousers; Textured cotton polo; Oxford weekend shirt; Essential sky-blue tee; Orbit graphic tee | L |
+| L | Everyday cotton tee; Essential gray tee; Contrast raglan long-sleeve tee; Washed straight-leg jeans; Pleated city trousers | S or M |
 
 ## Boundary and retry examples
 

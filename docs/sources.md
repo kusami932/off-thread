@@ -31,4 +31,4 @@ The deployment instructions were checked against these official GitHub sources o
 - [Configuring a publishing source for your GitHub Pages site](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
 - [Creating a GitHub Pages site](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)
 
-GitHub Pages has not been configured or verified for a real repository as part of this delivery.
+Public GitHub Pages deployment has not been verified in this task. The user may have published independently; the package includes instructions for updating the existing repository.

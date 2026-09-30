@@ -2,6 +2,10 @@
 
 Verified locally on September 30, 2026. This is implementation evidence, not participant-study evidence or confirmation of public deployment.
 
+## Latest wording-only follow-up
+
+The main task sentence was restored verbatim from the first delivered package: “Complete an order with the highest spend possible from this collection, without going over $100.” The inclusive $88–$100 checkout acceptance tolerance was not changed. JavaScript syntax passed, the browser displayed the exact restored sentence without console warnings/errors, and the main-page screenshots were refreshed. The 21-test suite below was last run for the preceding stock/ad change; this follow-up changes display copy only.
+
 ## Automated logic and data checks
 
 All **21 tests** passed with Node's built-in test runner (`node --test tests/*.test.mjs`). Coverage includes:
@@ -20,7 +24,7 @@ The catalog remains 33 cards: 22 purchasable products and 11 ad-only entries. Fo
 
 - The 21-test suite passed after updating stock and order assertions. It checks the exact six/five/eleven stock split, consistency across colors, at least one purchasable size per product, restored-cart rejection of unavailable variants, four leading ads, seven lower ads, and valid $88/$100 combinations.
 - Desktop browser checks found ad card positions 1, 2, 3, 4, 7, 10, 17, 19, 23, 25, and 33. All first four ads began on the same row at 1440×1000; products and the remaining ads were mixed below. A refresh retained the fixed arrangement.
-- The checkout heading no longer contains the ORDER TARGET / SPEND WITHIN THIS RANGE badge. The main task instructions and inclusive $88–$100 success rule remain intact.
+- The checkout heading no longer contains the ORDER TARGET / SPEND WITHIN THIS RANGE badge. The main task remains visible; its wording was subsequently restored as described above. The inclusive $88–$100 success rule remains intact.
 - Everyday cotton tee White/L rejected after Add; changing to White/M succeeded.
 - Orbit graphic tee Black/S and Black/M both rejected after Add; Black/L succeeded. The rejected attempts did not add cart items.
 - Four $22 Orbit graphic tees in Black/L completed an $88 order through the normal checkout after stock-error recovery. This is a functional automation check, not a participant result.
@@ -67,7 +71,7 @@ All 23 added images were independently generated and visually inspected. The del
 
 ## Remaining evaluation work
 
-- Publish to the chosen GitHub repository and verify the public Pages URL.
+- Update the existing GitHub Pages repository and verify its public URL; the remote deployment has not been accessed in this task.
 - Obtain the planned Office Hours feedback. Exact lecture references can be recorded when available; course coverage is user-confirmed.
 - Revalidate the normal-site baseline and collect unfamiliar-human trials. The stopwatch alone does not establish a fivefold average interaction cost.
 

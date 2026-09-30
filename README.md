@@ -2,9 +2,9 @@
 
 A functioning, intentionally frustrating fashion-shopping simulation. All interface text, code comments, and submission documentation are in English. No account, real payment, server database, or runtime library is required.
 
-**Revision 2 task:** complete a simulated order totaling **$88–$100 inclusive**. Any amount in that interval succeeds; maximizing expenditure is no longer required. Item count is not scored. Duplicate purchases are allowed, available variants have no quantity cap, and shipping/tax are zero.
+**Visible task:** “Complete an order with the highest spend possible from this collection, without going over $100.” The original broad spending objective is restored. For evaluation, checkout retains the inclusive **$88–$100** acceptance tolerance; it does not require an exact optimum. Item count is not scored. Duplicate purchases are allowed, available variants have no quantity cap, and shipping/tax are zero.
 
-**Delivery status:** revision 2 is provided in this package; see [verification status](docs/verification.md) for the exact checks executed. **Not published to GitHub Pages**. Real human usability results are **UNMEASURED**. Course coverage is user-confirmed; exact slide references and instructor review of conceptual distinctness remain pending.
+**Delivery status:** revision 2 is provided in this package; see [verification status](docs/verification.md) for the exact checks executed. **Public deployment has not been verified in this task.** Real human usability results are **UNMEASURED**. Course coverage is user-confirmed; exact slide references and instructor review of conceptual distinctness remain pending.
 
 ## Run locally
 
@@ -28,6 +28,19 @@ Open [the local store](http://127.0.0.1:8000/) and [submission documentation](ht
 The implementation uses relative asset/module paths and hash navigation (`#/shop`, `#/product/tee`, `#/cart`, `#/complete`). No domain-root `/assets` paths or server route rewrites are required. Local verification used `/anti-ux-fashion/` as a repository-like prefix. This establishes subpath compatibility, not actual GitHub deployment.
 
 Official references: [Configure the publishing source](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site), [Create a GitHub Pages site](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site). Checked September 29, 2026.
+
+## Update an existing GitHub Pages site
+
+Use the same repository and publishing source as the current site.
+
+1. Download the latest submission ZIP and extract it.
+2. Check **Settings → Pages** for the configured source branch and folder. For the original setup these are **main** and **/(root)**.
+3. In **Code**, select that branch and open that folder. Choose **Add file → Upload files**.
+4. Upload the extracted contents, keeping `index.html`, `styles.css`, `js/`, `assets/`, and `docs/` in the existing structure. Keep `.nojekyll`. The outer extracted folder is not an extra website folder.
+5. Commit the update to the publishing branch. If using a pull request, merge it into that branch.
+6. Check **Actions** for a successful Pages deployment, then open your existing site URL and refresh it.
+
+GitHub documents [file uploads](https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository) and [automatic publishing from the configured branch](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site). Instructions checked September 30, 2026. This task has not accessed or updated your remote repository.
 
 ## Submission materials
 
@@ -61,7 +74,7 @@ Prices, tags, and variant availability can be edited in `products.js`. The succe
 
 The earlier expansion added 5 pants, 10 short-sleeve tees, 3 long-sleeve tees, and 5 shirts (3 long-sleeve and 2 short-sleeve), bringing the original 10 entries to 33. In the latest follow-up, 11 of those entries become advertisement-only cards, leaving **22 shoppable products and 11 ads, exactly 33 cards total**. All 33 local images are retained. The first four catalog cards are ads; the remaining seven ads occupy fixed, randomly selected positions among the products below. Search and filters preserve the relative order of matching cards. The former two extra duplicate ad cards are removed. Ads retain their search/filter metadata, so matching results can include ads, but ads cannot be purchased or retained in the cart. Their fixed close controls work immediately.
 
-Of the 22 shoppable products, 11 were randomly selected once for size restrictions: six have both S and M sold out in every color, and five have L sold out in every color. The other 11 products are fully available. This selection and all stock restrictions remain fixed across visits. The checkout target-spend badge is removed; the main task instructions and $88–$100 acceptance rule remain. Never add arbitrary delays or random stock failures.
+Of the 22 shoppable products, 11 were randomly selected once for size restrictions: six have both S and M sold out in every color, and five have L sold out in every color. The other 11 products are fully available. This selection and all stock restrictions remain fixed across visits. The checkout target-spend badge is removed, and the main task uses the original broad spending objective. The internal $88–$100 acceptance tolerance is unchanged. Never add arbitrary delays or random stock failures.
 
 ## Test and reset
 
@@ -79,4 +92,4 @@ Cart state survives routes and reloads in the same tab. Browsers may restore ses
 
 ## Assessment limits
 
-Ten implemented devices are documented, with the proposed concepts confirmed by the user as course material. Exact lecture citations were not supplied, and Office Hours review is planned. The former **240-second provisional estimate** is retained for traceability only, with a nominal fivefold threshold of **1,200 seconds**. It needs revalidation for revision 2: 33 catalog cards (22 shoppable products and 11 ads, with four ads first and seven distributed below), increased fixed stock restrictions, a range-based task, manual payment transcription, and automatic timing change the comparison. No unfamiliar-human completion times or fivefold result have been measured. The normal UI baseline is an estimate, not a second implemented comparison website.
+Ten implemented devices are documented, with the proposed concepts confirmed by the user as course material. Exact lecture citations were not supplied, and Office Hours review is planned. The former **240-second provisional estimate** is retained for traceability only, with a nominal fivefold threshold of **1,200 seconds**. It needs revalidation for revision 2: 33 catalog cards (22 shoppable products and 11 ads, with four ads first and seven distributed below), increased fixed stock restrictions, the $88–$100 acceptance tolerance, manual payment transcription, and automatic timing change the comparison. The visible task again uses the original broad spending objective. No unfamiliar-human completion times or fivefold result have been measured. The normal UI baseline is an estimate, not a second implemented comparison website.

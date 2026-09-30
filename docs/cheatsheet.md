@@ -1,6 +1,6 @@
 # Completion cheatsheet — revision 2
 
-For evaluation and recovery only. Do not reveal these solutions before an independent participant trial. Any order totaling **$88–$100 inclusive** succeeds; maximum spending and item count are not objectives.
+For evaluation and recovery only. Do not reveal these solutions before an independent participant trial. The visible task is: “Complete an order with the highest spend possible from this collection, without going over $100.” Internally, any order totaling **$88–$100 inclusive** succeeds under the retained acceptance tolerance; exact maximization is not enforced and item count is not scored.
 
 The catalog now contains **22 shoppable products and 11 advertisement-only cards**, with four ads first and seven interspersed among the products below in a fixed random order. Ads can match search/filter terms but cannot be bought, and converted entries have no second purchasable copy. All products in the solutions below remain shoppable. Eleven products have fixed size restrictions across all colors: six restrict S and M, and five restrict L. Always use the available sizes listed below.
 

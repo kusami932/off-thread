@@ -1,10 +1,10 @@
 # Confirmed requirements and assessment criteria — revision 2
 
-The assignment screenshots supply assessment criteria. The user's implementation request and subsequent decisions define website behavior. The later revision replaces the earlier maximum-spending task with an accepted range. Lecture slides themselves were not supplied. Interface and submission-document text is English.
+The assignment screenshots supply assessment criteria. The user's implementation request and subsequent decisions define website behavior. The latest wording revision restores the original broad spending objective while retaining the later $88–$100 checkout acceptance tolerance. Lecture slides themselves were not supplied. Interface and submission-document text is English.
 
 ## 1. Task and success conditions
 
-**Complete a simulated order totaling $88–$100 inclusive.** Every amount in that range succeeds; there is no maximum-spending or item-count objective. Repeated purchases are allowed, available variants have no separate quantity cap, and tax/shipping are $0. There is no real payment, account registration, or delivery.
+**Visible task: “Complete an order with the highest spend possible from this collection, without going over $100.”** This restores the original broad spending objective without specifying a required range in the main instruction. Internally, every total from $88 to $100 inclusive succeeds as an acceptance tolerance; an exact optimum is not required. Item count is not scored. Repeated purchases are allowed, available variants have no separate quantity cap, and tax/shipping are $0. There is no real payment, account registration, or delivery.
 
 Order processing rejects totals below $88 and above $100. It accepts both boundaries. Prices and totals use integer cents, so the acceptance condition is `8800 <= totalCents <= 10000`.
 
@@ -20,7 +20,7 @@ The catalog has **33 cards: 22 shoppable products and 11 advertisement-only entr
 - Evaluation uses a desktop with a mouse.
 - The cart uses browser `sessionStorage`, retaining it across screen navigation and refresh in the same tab. Persistent cross-session storage is not required.
 - Payment fields stay in memory only, clear on refresh, and are not transmitted or persistently stored.
-- No shopping or completion screen shows cart total or remaining budget. The main task instructions state the target range, and unit prices remain visible. The checkout target-spend badge is removed.
+- No shopping or completion screen shows cart total or remaining budget. The main task asks for the highest possible spend without exceeding $100; it does not state the acceptance range. Unit prices remain visible. The checkout target-spend badge is removed.
 - The stopwatch starts automatically on the first opening of a new attempt. It continues through navigation, refresh, background time, errors, cancellation, and retries. It freezes when a valid order completes; beginning a new attempt resets it.
 - Elapsed minutes and seconds appear in the center of the header and on completion. The stopwatch reports elapsed time; it does not impose a waiting period or establish human-study evidence by itself.
 
@@ -73,7 +73,7 @@ All confirmations share styling and button placement. Above $100, retain cart bu
 | Assignment criterion | Implementation response | Additional evidence needed |
 |---|---|---|
 | Operable and accessible to the evaluator | Static HTML/CSS/JS, local assets, working routes and recovery | Current checks in verification report; actual GitHub Pages access check |
-| Clear, achievable task | $88–$100 instructions and available boundary examples | Current browser completion checks |
+| Clear, achievable task | Broad spending objective under $100, an internal $88–$100 acceptance tolerance, and available completion examples | Current browser completion checks |
 | At least 10 distinct course concepts violated | Original A1–A5, B1–B2, C1–C3 devices retained | Instructor review of exact labels and overlap |
 | Average time at least five times normal baseline | Baseline rationale, stopwatch, and human-study protocol | Revalidated baseline and actual participant data |
 | Documentation and resources | Mapping, screenshots, cheatsheet, sources, recorder | Final evidence must match this revision |
@@ -82,6 +82,6 @@ Course coverage is user-confirmed; exact lecture filenames, weeks, and slides re
 
 ## 7. Approved revisions and evidence status
 
-Previously approved safeguards remain: immediate ad dismissal, fixed close controls, and moving images inside stationary hit areas. Revision 2 additionally changes the task, inventory, filter count, cart contrast, payment values/entry, checkout copy, and timing. The follow-ups leave 22 shoppable products and 11 ads: four ads lead the catalog and seven occupy fixed random positions below. Eleven shoppable products have fixed size restrictions, split six with S/M sold out and five with L sold out. The checkout target-spend badge is removed while the main instructions and success rule remain. The previous footer phrase was removed. There are no random failures, forced waits, or moving button targets.
+Previously approved safeguards remain: immediate ad dismissal, fixed close controls, and moving images inside stationary hit areas. Revision 2 additionally changes the task, inventory, filter count, cart contrast, payment values/entry, checkout copy, and timing. The follow-ups leave 22 shoppable products and 11 ads: four ads lead the catalog and seven occupy fixed random positions below. Eleven shoppable products have fixed size restrictions, split six with S/M sold out and five with L sold out. The checkout target-spend badge is removed. The main instruction is restored to its original broad spending objective, while the $88–$100 success rule remains unchanged. The previous footer phrase was removed. There are no random failures, forced waits, or moving button targets.
 
 Implementation, technical verification, deployment, lecture-source validation, and human usability testing are separate statuses. Only checks actually executed may be reported as verified. **Human results remain UNMEASURED**, and a running stopwatch or automation does not change that status. A deployment-ready package is not a verified public deployment.
